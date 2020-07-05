@@ -9,7 +9,7 @@
 `bash <(curl -Ls https://raw.github.com/davoclock/devops-setup/master/azl2_init.sh)`
 
 ## Demo
-[Video]
+[[Demo Video on Youtube]](https://www.youtube.com/watch?v=jEGXNY_vhd8&t=5m55s)
 
 ## Useful Links
 1. Amazon Linux 2 Releases:
