@@ -6,7 +6,7 @@
 
 
 1 Click Run: 
-bash＜(curl -Ls https://raw.github.com/davoclock/devops-setup/master/azl2_init.sh)
+bash <(curl -Ls https://raw.github.com/davoclock/devops-setup/master/azl2_init.sh)
 
 2. Amazon Linux 2 Releases:
 https://github.com/yosukes-dev/AmazonWSL/releases
