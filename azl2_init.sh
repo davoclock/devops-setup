@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-yum upgrade && yum update -y
+yum upgrade -y && yum update -y
 amazon-linux-extras install -y kernel-ng
 PKG_INSTALL='sudo git awscli zsh util-linux-user openssh passwd'
 read -p "Enter USERNAME to add: " USERNAME
