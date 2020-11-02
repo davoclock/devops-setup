@@ -11,7 +11,7 @@ yum install -y ${PKG_INSTALL} >> /dev/null
 
 echo "Adding and configuring user: ${USERNAME}"
 useradd -m ${USERNAME} >> /dev/null
-echo "${USERNAME}    ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers >> /dev/null
+echo "${USERNAME}    ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
 
 echo "Installing "Oh my zsh" for ${USERNAME}"
 runuser -l ${USERNAME} -c "curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh"
