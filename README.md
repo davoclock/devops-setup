@@ -8,6 +8,8 @@
 1 Click Run:
 `bash <(curl -Ls https://raw.github.com/davoclock/devops-setup/master/azl2_init.sh)`
 
+2 To start WSL as a custom user, run `wsl -u user Amazon2`
+
 ## Demo
 [[Demo Video on Youtube]](https://www.youtube.com/watch?v=jEGXNY_vhd8&t=5m55s)
 
